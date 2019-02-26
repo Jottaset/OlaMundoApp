@@ -5,15 +5,12 @@
         <Label Text="Benvindo ao Xamarin.Forms!"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" 
-               BackgroundColor=""
-               FontSize=""
                TextColor="Teal"
                />
         
         <Label Text="Texto de Teste 2!"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" 
-               BackgroundColor=""
                FontSize="30"
                TextColor="Silver"
                />
@@ -21,7 +18,6 @@
         <Label Text="Texto de Teste 3!"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" 
-               BackgroundColor=""
                FontSize="20"
                TextColor="Green"
                />

@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Diagnostics;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,17 +16,17 @@ namespace OlaMundoApp
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+            Debug.WriteLine("Olha o q aconteceu no OnStart!!!");
         }
 
         protected override void OnSleep()
         {
-            // Handle when your app sleeps
+            Debug.WriteLine("Olha o q aconteceu no OnSleep!!!");
         }
 
         protected override void OnResume()
         {
-            // Handle when your app resumes
+            Debug.WriteLine("Olha o q aconteceu no OnResume!!!");
         }
     }
 }
