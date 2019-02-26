@@ -1,7 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:OlaMundoApp" x:Class="OlaMundoApp.MainPage">
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Label Text="Benvindo ao Xamarin.Forms!"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               BackgroundColor=""
+               FontSize=""
+               TextColor="Teal"
+               />
+        
+        <Label Text="Texto de Teste 2!"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               BackgroundColor=""
+               FontSize="30"
+               TextColor="Silver"
+               />
+        
+        <Label Text="Texto de Teste 3!"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               BackgroundColor=""
+               FontSize="20"
+               TextColor="Green"
+               />
     </StackLayout>
 </ContentPage>
